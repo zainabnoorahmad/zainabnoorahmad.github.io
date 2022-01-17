@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barber Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link href="style.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript " src="script.js"></script>
+    <script src="toastr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+
+
+
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-expand-md navbar-fixed-top fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <p class=logoimg>LOGO</p>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navmobile" aria-label="Toggle navigation">
+                <i title="" id="toggle-button-id" class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav flex-row ml-auto nav-fill">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery-main">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login/Register</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---  main  -->
+    <div id="slides" class="carousel slide">
+        <div class="carousel-item active">
+            <img class="mainImg" src="img/main5.jpg" />
+            <div class="carousel-caption">
+                <h1 class="heading">Barber Shop</h1>
+                <h4 class="subheading">Decent Looks | Modern Haircut</h4>
+
+            </div>
+        </div>
+    </div>
+
+    <!--- about-us -->
+    <div class="container-fluid" id="about">
+
+        <div class="row about-us">
+
+            <div class="
+            col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10
+            welcome
+            text-center
+          ">
+                <h1>About Us</h1>
+                <hr />
+                <p class="lead">
+                    Driven by our philosophy of delivering quality & consistency in laid back surroundings to create effortless style, Ludlow Blunt blends a heritage barbershop narrative with modern day techniques & craftsmanship. Adapting both men's & women's classical
+                    styles with contemporary appeal, we aim to create both in hair & product design a refreshing take on the past while anticipating the new.
+                </p>
+            </div>
+            <div class="srow">
+                <div class="abt">
+                    <div class="scard">
+                        <h3>11+</h3>
+                        <p>Years of success</p>
+                    </div>
+                </div>
+
+
+                <div class="abt">
+                    <div class="scard">
+                        <h3>100+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+
+                <div class="abt">
+                    <div class="scard">
+                        <h3>100+</h3>
+                        <p>Positive feedbacks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Services Section -->
+
+    <div class="services-background">
+
+        <div class="container">
+            <div class="container-fluid padding row welcome text-center" id="services">
+                <div class="col-12">
+                    <h1 class="">Our Services</h1>
+                </div>
+                <hr />
+                <div class="col-12">
+                    <p class="lead">Welcome to our barbershop, we offer:</p>
+                </div>
+            </div>
+
+            <div class="row hidden-md-up">
+                <div class="col-md-4">
+                    <div class="card card-border text-center">
+                        <div class="card-block divheight">
+                            <h4 class="card-title">Men's Haircut</h4>
+                            <p class="card-text p-y-1 text-wrap">
+                                Full style and cut to suit your face shape, professionally styled with a hot towel to finish.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-border text-center">
+                        <div class="card-block divheight">
+                            <h4 class="card-title">Deluxe Shave</h4>
+                            <p class="card-text p-y-1 text-wrap">
+                                We deliver traditional straight razor hot shaves, using hot towels and essential oils with handsome results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-border text-center">
+                        <div class="card-block divheight">
+                            <h4 class="card-title">Shampoo & Condition</h4>
+                            <p class="card-text p-y-1 text-wrap">
+                                Nourish your head and scalp with a full wash using our exclusive Bowery products
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-border divheight text-center">
+                        <div class="card-block">
+                            <h4 class="card-title">Split & Polish</h4>
+                            <p class="card-text p-y-1 text-wrap">
+                                An all-over buzz cut with clippers, 2 guards maximum and a hot towel to finish.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-border divheight text-center">
+                        <div class="card-block">
+                            <h4 class="card-title">Clay Mask Facial</h4>
+                            <p class="card-text p-y-1 text-wrap">
+                                A natural Calcium Bentonite Indian Clay Mask which removes impurities, deeply cleanses pores and tightens skin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-border divheight text-center">
+                        <div class="card-block">
+                            <h4 class="card-title">Beard Styling</h4>
+                            <p class="card-text p-y-1">
+                                A service for longer and more styled beards – sculpt the beard, neckline foiled, finished with hot towel and cheekbones razored
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Gallery -->
+    <div class="col-12  text-center welcome" id="gallery-main">
+        <h1 class="display-4 text-center">Gallery</h1>
+        <hr />
+    </div>
+
+    <div style="width: 100%;        background-color: #CDCDCD    ;">
+        <div class="gallery-wrapper">
+            <img class="wrapper-img" src="img/4.jpg" alt="">
+            <img class="wrapper-img" src="img/2.jpg" alt="">
+            <img class="wrapper-img" src="img/5.jpg" alt="">
+            <img class="wrapper-img" src="img/12.jpg" alt="">
+            <img class="wrapper-img" src="img/18.jpg" alt="">
+            <img class="wrapper-img" src="img/8.jpg" alt="">
+            <img class="wrapper-img" src="img/15.jpg" alt="">
+            <img class="wrapper-img" src="img/14.jpg" alt="">
+            <img class="wrapper-img" src="img/11.jpg" alt="">
+            <img class="wrapper-img" src="img/12.jpg" alt="">
+        </div>
+    </div>
+
+    <!--- Contact us -->
+
+
+    <div class="container-fluid  ">
+
+        <div class="row contact-main">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 welcome">
+                <div class="col-12 welcome text-center" id="contact">
+                    <h1 class="display-4 text-center">Contact Us</h1>
+                    <hr />
+                </div>
+
+                <!--contact form-->
+                <form name="form" id="form" method="post" class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-12   form-main-log">
+                            <div class="form-group">
+                                <input class="form-control col-12" type="text" id="name" name="name" placeholder="YOUR NAME" required />
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please add a name.
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control col-12" type="email" id="email" name="email" placeholder="YOUR EMAIL ID" required />
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please choose a valid email.
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control col-12" type="text" id="message" name="message" placeholder="YOUR MESSAGE" required></textarea><br>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please add message.
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <input class="btn btn-outline-light submit-btn " type="submit" id="submit" value="Send Message" />
+
+                    </div>
+
+            </div>
+
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!--- Connect -->
+
+
+    <!--- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3  ">
+
+                    <a href="#">
+                        <p class="heading" style="font-size: 30px;text-shadow:none">Barbershop</p>
+                    </a>
+                    <hr class="light " />
+
+                    <p>We aim to create both in hair & product design a refreshing take on the past while anticipating the new</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="sub-div">
+
+                        <h5>Services</h5>
+                        <a href="#">Mens haircut</a><br>
+                        <a href="#">Deluxe Shave</a><br>
+                        <a href="#">Shampoo & Condition</a><br>
+                        <a href="#">Split & Polish</a><br>
+
+                        <a href="#">Clay Facial Mask</a><br>
+                        <a href="#">Beard Styling</a>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="sub-div">
+                        <h5>Company</h5>
+                        <p>Location: 616 East Kentucky Avenue Denver, Colorado 80209</p>
+                        <p>Email: email@myemail.com</p>
+                        <p>Contact: 555-555-5555</p>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="sub-div social   text-center">
+                        <h5>Social</h5>
+                        <a href="# "><i class="fab fa-facebook "></i></a>
+                        <a href="# "><i class="fab fa-twitter "></i></a>
+                        <a href="# "><i class="fab fa-google-plus-g "></i></a>
+                        <a href="# "><i class="fab fa-instagram "></i></a>
+                        <a href="# "><i class="fab fa-youtube "></i></a>
+
+
+                    </div>
+                </div>
+                <div class="col-12 copyright text-center ">
+                    <hr class="light-100 text-center" />
+                    <h5>&copy; barbershop.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+
+
+</html>
+ 

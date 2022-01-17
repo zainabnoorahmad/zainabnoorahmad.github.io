@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript " src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+
+    <!---  main class="login-main  -->
+    <div id="login-main">
+
+        <p class="heading" style="font-size: 30px;text-shadow:none;padding-left: 30px;padding-top:10px;">Barbershop</p>
+
+        <!-- Tab Buttons -->
+        <div id="tab-btn">
+            <a href="#" class="login-tab active">Log In</a>
+            <a href="#" class="register-tab">Sign Up</a>
+        </div>
+        <!-- Login Form -->
+        <div class="login-box">
+            <h2>Get Started!</h2>
+            <form id="login-form" name="login-form" action="#" method="post" class="needs-validation justify-content-center">
+                <div class="form-group">
+                    <input type="email" id="lemail" name="lemail" placeholder="Email" class="form-control" required /><br />
+
+                </div>
+                <div class="form-group">
+                    <input type="password" id="lpassword" name="lpassword" placeholder="Password" class="form-control" required /><br />
+                </div>
+                <input type="submit" name="submit" value="SIGN IN" class="sub-btn" />
+            </form>
+        </div>
+        <!-- Registration Form -->
+        <div class="register-box">
+            <h2>Register With Us!</h2>
+            <form id="reg-form" name="reg-form" action="#" method="post" class="needs-validation justify-content-center" novalidate oninput='cpassword.setCustomValidity(cpassword.value != password.value ? "Passwords do not match." : "")'>
+                <div class="form-group">
+                    <input type="text " id="name" name="name" placeholder="Enter Name " class="form-control" required autofocus /><br />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please add a name.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Enter Email " required /><br />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please add valid email.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Enter Password " class="form-control" required /><br />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please add valid password.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="cpassword" name="cpassword " placeholder="Confirm Password " class="form-control" required /><br />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Passwords do not match.
+                    </div>
+                </div>
+                <input class="sub-btn" type="submit" name="submit" value="SIGN UP " />
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
